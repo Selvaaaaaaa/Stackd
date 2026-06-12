@@ -5,23 +5,23 @@ import Eyebrow from '../components/Eyebrow';
 const STRENGTHS = [
   {
     icon: Sparkles,
-    title: 'Creative & Modern',
-    desc: 'We stay on top of design trends and build websites that look and feel premium — dark modes, glassmorphism, smooth animations, and more.',
+    title: 'Founder-Led',
+    desc: 'You work directly with Selvaa, keeping communication clear and the process simple from kickoff to launch.',
   },
   {
     icon: Zap,
     title: 'Fast & Responsive',
-    desc: 'Every site we build is mobile-first, lightning fast, and optimized for SEO. Your users get a flawless experience on every device.',
+    desc: 'Every site is mobile-first, lightweight, and optimized for performance so it feels smooth on every screen.',
   },
   {
     icon: Heart,
     title: 'Passionate & Dedicated',
-    desc: 'We pour genuine care into every project. As students, we bring fresh energy, hunger to learn, and a drive to over-deliver.',
+    desc: 'As a student team, we bring fresh energy, sharp focus, and a genuine care for the outcome of every build.',
   },
   {
     icon: Users,
-    title: 'Affordable & Honest',
-    desc: 'Premium quality without the agency price tag. We believe great design should be accessible to startups, small businesses, and creators.',
+    title: 'SEO-Minded',
+    desc: 'We structure pages for clarity, speed, and search visibility so your website can support real growth.',
   },
 ];
 
@@ -42,20 +42,20 @@ const About = () => {
               className="text-fade font-semibold tracking-tighter leading-[1.05] mb-6"
               style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
             >
-              Young developers,
+              Built by students,
               <br />
-              serious about craft.
+              focused on real business results.
             </h2>
             <div className="space-y-4 text-[15px] sm:text-base text-white/55 leading-relaxed max-w-lg">
               <p>
-                We're <span className="text-white font-medium">Stackd</span> — a freelance web development team founded by{' '}
-                <span className="text-violet-soft font-medium">Selvaa</span>, a B.Tech second-year student with a deep passion for building beautiful, functional websites.
+                <span className="text-white font-medium">Stackd</span> is a freelance web development team founded by{' '}
+                <span className="text-violet-soft font-medium">Selvaa</span>, a full stack web developer who loves building clean, premium digital experiences.
               </p>
               <p>
-                We're actively learning and mastering modern web technologies like React, Next.js, TypeScript, and Tailwind CSS — and we channel everything we learn into real-world projects for real clients.
+                We work with modern technologies like React, Next.js, TypeScript, Tailwind CSS, and Framer Motion to create polished websites that feel fast and modern.
               </p>
               <p>
-                Our mission is simple: deliver responsive, visually stunning, SEO-friendly websites that help startups, local businesses, personal brands, and creators establish a powerful online presence — at prices that don't break the bank.
+                Our mission is simple: deliver responsive, SEO-friendly websites for startups, local businesses, personal brands, creators, and small companies — with a smooth process and startup-friendly pricing.
               </p>
             </div>
           </motion.div>

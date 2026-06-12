@@ -68,7 +68,7 @@ const Nav = () => {
             Contact
           </a>
           <Button variant="primary" size="sm" href="#contact">
-            Get a Quote
+            Start Project
           </Button>
         </div>
       </nav>

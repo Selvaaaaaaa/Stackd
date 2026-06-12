@@ -4,33 +4,27 @@ import Eyebrow from '../components/Eyebrow';
 const STEPS = [
   {
     n: '01',
-    title: 'Discussion',
-    desc: 'We start with an open conversation about your brand, goals, and vision. Tell us what you need, who your audience is, and what success looks like to you.',
-    code: '→ your vision · goals · requirements · audience',
+    title: 'Discovery',
+    desc: 'We start with a focused conversation about your goals, audience, offer, and the result you want the site to achieve.',
+    code: '→ goals · audience · offer · scope',
   },
   {
     n: '02',
-    title: 'Planning',
-    desc: 'We map out the project structure, define the tech stack, plan the sitemap, and set clear milestones — so you know exactly what to expect and when.',
-    code: '→ sitemap · tech stack · timeline · milestones',
+    title: 'Design',
+    desc: 'We shape the visual direction, layout flow, and content hierarchy so the website feels premium and easy to use.',
+    code: '→ wireframes · layout · visual direction',
   },
   {
     n: '03',
-    title: 'Design',
-    desc: 'We craft beautiful, user-friendly layouts in Figma — with modern aesthetics, responsive design, and pixel-perfect attention to detail. You review, we refine.',
-    code: '→ wireframes · mockups · design system · review',
+    title: 'Development',
+    desc: 'We bring everything to life with clean React, Next.js, and Tailwind code that is responsive, fast, and SEO-friendly.',
+    code: '→ react · next.js · tailwind · performance',
   },
   {
     n: '04',
-    title: 'Development',
-    desc: 'We bring the designs to life with clean React, Next.js, and Tailwind CSS code — fully responsive, SEO-optimized, and built for performance from day one.',
-    code: '→ react · next.js · tailwind · responsive · SEO',
-  },
-  {
-    n: '05',
     title: 'Launch',
-    desc: 'We deploy your site, run final quality checks, optimize for speed, and hand over everything. Your website goes live — ready to make an impact.',
-    code: '✓ deployed · optimized · live · ready to grow',
+    desc: 'We run final checks, optimize the last details, and get your site live with everything ready for growth.',
+    code: '✓ deploy · test · launch · grow',
   },
 ];
 
@@ -44,13 +38,13 @@ const HowItWorks = () => {
             className="text-fade font-semibold tracking-tighter leading-[1.05]"
             style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
           >
-            From first chat to launch,
+            From discovery to launch,
             <br />
-            in five clear steps.
+            in four clear steps.
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-white/[0.06] rounded-2xl overflow-hidden border-hairline">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-white/[0.06] rounded-2xl overflow-hidden border-hairline">
           {STEPS.map((step, i) => (
             <motion.div
               key={step.n}

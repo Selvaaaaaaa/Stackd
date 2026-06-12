@@ -5,35 +5,35 @@ import Eyebrow from '../components/Eyebrow';
 const TRUST_CARDS = [
   {
     icon: Rocket,
-    title: 'Ready for Our First Clients',
-    desc: "We have been building concept projects, learning cutting-edge technologies, and perfecting our craft. Now we are ready to bring that passion to real client projects.",
+    title: 'Founder-Led Communication',
+    desc: 'You speak directly with Selvaa, keeping feedback, revisions, and timelines simple from the first message.',
     highlight: true,
   },
   {
     icon: Handshake,
-    title: 'Open to Collaborations',
-    desc: "Whether you are a startup, a fellow student, or a local business \u2014 we would love to collaborate. We bring fresh perspectives, modern design skills, and genuine excitement to every project.",
+    title: 'Built For Collaboration',
+    desc: 'We work closely with startups, local businesses, personal brands, creators, and small companies to keep the outcome aligned with the brief.',
     highlight: true,
   },
   {
     icon: MessageSquare,
-    title: 'Transparent Communication',
-    desc: "We believe in honest, open communication. You will always know where your project stands, what is next, and how we are solving challenges along the way.",
+    title: 'Transparent Process',
+    desc: 'You always know what is happening, what is next, and how each step supports the final launch.',
   },
   {
     icon: Clock,
     title: 'Fast Turnaround',
-    desc: 'As a dedicated student team, we move quickly without compromising quality. Most projects are delivered within 1\u20133 weeks depending on scope.',
+    desc: 'We move quickly without compromising quality, making Stackd a strong fit for time-sensitive launches and refreshes.',
   },
   {
     icon: Star,
     title: 'Quality Over Quantity',
-    desc: 'We take on a limited number of projects at a time so we can give each one our full attention, creativity, and care.',
+    desc: 'We keep the workload focused so every project gets full attention, strong details, and thoughtful execution.',
   },
   {
     icon: Shield,
-    title: 'Your Vision, Protected',
-    desc: "We listen first, build second. Your ideas and brand identity drive every design decision we make. We are here to execute your vision, not impose ours.",
+    title: 'SEO & Performance Ready',
+    desc: 'Every build is structured for speed, clarity, and search visibility so your website can support growth after launch.',
   },
 ];
 
@@ -42,17 +42,17 @@ const Testimonials = () => {
     <section id="testimonials" className="relative py-24 sm:py-32 border-t border-white/[0.06]">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="flex flex-col items-start sm:items-center text-left sm:text-center max-w-2xl mx-auto mb-16 sm:mb-20">
-          <Eyebrow className="mb-5">WHY WORK WITH US</Eyebrow>
+          <Eyebrow className="mb-5">WHY STACKD</Eyebrow>
           <h2
             className="text-fade font-semibold tracking-tighter leading-[1.05]"
             style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
           >
-            Fresh talent, real commitment.
+            Clean process.
+            <br />
+            Premium delivery.
           </h2>
           <p className="mt-5 text-white/55 leading-relaxed text-[15px] sm:text-base max-w-lg">
-            We may be early in our journey, but we bring passion, modern skills,
-            and an unwavering commitment to quality. Here is what makes working
-            with us different.
+            Stackd is a passionate student web development team built around clarity, momentum, and a strong focus on the final result.
           </p>
         </div>
 

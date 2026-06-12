@@ -32,8 +32,11 @@ const COLUMNS = [
   {
     title: 'Connect',
     links: [
-      { label: 'WhatsApp', href: 'https://wa.me/919876543210' },
-      { label: 'Twitter', href: '#' },
+      {
+        label: 'stackdbuild@gmail.com',
+        href: 'https://mail.google.com/mail/?view=cm&fs=1&to=stackdbuild%40gmail.com&su=Project%20enquiry%20from%20Stackd%20website&body=Hi%20Stackd%2C%20I%20would%20like%20to%20discuss%20a%20project.',
+      },
+      { label: '+91 7305160896', href: 'https://wa.me/917305160896' },
       { label: 'LinkedIn', href: '#' },
       { label: 'GitHub', href: '#' },
       { label: 'Instagram', href: '#' },
@@ -58,9 +61,9 @@ const Footer = () => {
               <span className="font-semibold tracking-tight">Stackd</span>
             </div>
             <p className="text-[13.5px] text-white/45 leading-relaxed max-w-xs">
-              A student-driven web development studio by Selvaa. We build
-              modern, responsive websites for startups, local businesses, and
-              creators — with passion and clean code.
+              A passionate student web development team led by Selvaa. We build
+              modern, responsive websites for startups, local businesses,
+              personal brands, creators, and small companies.
             </p>
 
             {/* Status pill */}

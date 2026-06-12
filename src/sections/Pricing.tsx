@@ -13,39 +13,39 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
-    name: 'NovaPay',
-    type: 'SaaS Landing Page',
+    name: 'SaaS Website',
+    type: 'Product Launch Site',
     tag: 'Concept Project',
-    description: 'A concept landing page for a fintech startup — featuring smooth scroll animations, interactive pricing sections, and a dark premium aesthetic designed to maximize conversions.',
+    description: 'A premium SaaS concept with clear messaging, strong CTAs, feature storytelling, and a conversion-first layout.',
     tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
   },
   {
-    name: 'Sakura Kitchen',
-    type: 'Restaurant Website UI',
+    name: 'Restaurant Website',
+    type: 'Hospitality Site',
     tag: 'Demo Project',
-    description: 'A demo website for a modern Japanese restaurant — showcasing a visual menu, reservation flow, and mobile-first responsive design with rich imagery and warm aesthetics.',
+    description: 'A modern restaurant experience with menu highlights, reservation prompts, and a polished mobile-first layout.',
     tech: ['React', 'Styled Components', 'Responsive Design'],
     featured: true,
   },
   {
-    name: 'Arjun Mehta',
+    name: 'Portfolio Website',
     type: 'Portfolio Website',
     tag: 'Practice Project',
-    description: 'A minimal, elegant portfolio concept for a freelance photographer — featuring a dynamic masonry gallery with lightbox previews and smooth page transitions.',
+    description: 'A clean personal portfolio concept with project highlights, strong typography, and a premium visual hierarchy.',
     tech: ['Next.js', 'Tailwind CSS', 'Cloudinary'],
   },
   {
-    name: 'ThreadCraft',
-    type: 'E-commerce Store UI',
+    name: 'E-commerce Store',
+    type: 'Online Shop',
     tag: 'Concept Project',
-    description: 'A concept e-commerce storefront for a sustainable fashion brand — with product filtering, wishlist UI, cart interactions, and a seamless checkout experience.',
+    description: 'A storefront concept with product cards, trust-building layout blocks, and a smooth shopping flow.',
     tech: ['React', 'Tailwind CSS', 'Custom Theme'],
   },
   {
-    name: 'Launchably',
-    type: 'Startup Landing Page',
+    name: 'Startup Landing Page',
+    type: 'Growth Landing Page',
     tag: 'Demo Project',
-    description: 'A bold, conversion-focused demo landing page for a startup accelerator — featuring an animated hero, social proof sections, and waitlist signup integration.',
+    description: 'A bold startup landing page built to communicate value quickly and turn visits into inquiries.',
     tech: ['React', 'Tailwind CSS', 'Framer Motion'],
     featured: true,
   },
@@ -130,14 +130,12 @@ const Pricing = () => {
             className="text-fade font-semibold tracking-tighter leading-[1.05]"
             style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
           >
-            Concept projects.
+            Portfolio highlights.
             <br />
-            Real craftsmanship.
+            Built for Stackd.
           </h2>
           <p className="mt-5 text-white/55 leading-relaxed text-[15px] sm:text-base max-w-lg">
-            These are demo and concept projects we've built to sharpen our skills
-            and showcase what we can create for you. Each one reflects our
-            approach to clean design and quality code.
+            These concept builds show the type of work Stackd creates for modern brands: fast, polished, and focused on conversion.
           </p>
         </div>
 

@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Code2, Palette, Gauge, Globe } from 'lucide-react';
+import { ArrowRight, Code2, Palette, Gauge, Globe, MessageCircle } from 'lucide-react';
 import Button from '../components/Button';
 
 const HIGHLIGHTS = [
-  { label: 'Modern Stack', value: 'React & Next.js' },
+  { label: 'Founder-Led', value: 'Selvaa' },
   { label: 'Mobile-First', value: 'Responsive' },
-  { label: 'SEO-Optimized', value: 'Built-in' },
-  { label: 'Affordable', value: 'Student Pricing' },
+  { label: 'SEO-Ready', value: 'Built-in' },
+  { label: 'Startup Focused', value: 'Conversion' },
 ];
 
 const TECH_STACK = [
@@ -24,11 +24,11 @@ const ShowcasePane = () => (
     </div>
     <div className="px-5 py-4 space-y-4 font-mono text-[12px] sm:text-[13px] leading-relaxed">
       {[
-        { icon: '◆', label: 'SaaS Landing Pages', desc: 'High-converting pages that drive signups' },
-        { icon: '◆', label: 'E-commerce Stores', desc: 'Beautiful online stores that sell' },
-        { icon: '◆', label: 'Portfolio Websites', desc: 'Stunning showcases for your brand' },
-        { icon: '◆', label: 'Business Websites', desc: 'Professional sites that build trust' },
-        { icon: '◆', label: 'Web Applications', desc: 'Modern apps built with the latest tech' },
+        { icon: '◆', label: 'SaaS Websites', desc: 'Conversion-focused pages for product launches' },
+        { icon: '◆', label: 'Business Websites', desc: 'Polished sites that build trust fast' },
+        { icon: '◆', label: 'Portfolio Builds', desc: 'Personal brands with strong visual storytelling' },
+        { icon: '◆', label: 'E-commerce Stores', desc: 'Clean storefronts designed to sell' },
+        { icon: '◆', label: 'Launch Support', desc: 'Fast updates and ongoing website care' },
       ].map((item, i) => (
         <div key={i} className="flex gap-3">
           <span className="text-violet-soft shrink-0">{item.icon}</span>
@@ -179,7 +179,7 @@ const Hero = () => {
             className="group inline-flex items-center gap-2 rounded-full border-hairline bg-white/[0.04] px-3.5 py-1.5 font-mono text-[11px] uppercase tracking-widest text-white/60 hover:text-white hover:bg-white/[0.08] transition-colors"
           >
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-violet-glow animate-pulse-dot" />
-            Open for projects · Let's collaborate
+            Stackd · Student web development team
             <ArrowRight size={12} strokeWidth={2} className="group-hover:translate-x-0.5 transition-transform" />
           </a>
         </motion.div>
@@ -192,9 +192,9 @@ const Hero = () => {
           className="text-fade text-center font-semibold tracking-tightest leading-[0.95] mb-6"
           style={{ fontSize: 'clamp(2.5rem, 7.5vw, 6rem)' }}
         >
-          Modern websites,
+          Premium websites
           <br />
-          crafted with passion.
+          for modern businesses.
         </motion.h1>
 
         {/* Subhead */}
@@ -205,9 +205,9 @@ const Hero = () => {
           className="mx-auto max-w-xl text-center text-white/55 leading-relaxed mb-10"
           style={{ fontSize: 'clamp(1rem, 1.4vw, 1.15rem)' }}
         >
-          Stackd is a student-driven web development studio building stunning,
-          high-performance websites for startups, local businesses, and modern
-          brands — with clean code and creative design at affordable prices.
+          Stackd is a passionate student web development team led by Selvaa,
+          building fast, responsive, SEO-friendly websites for startups, local
+          businesses, personal brands, creators, and small companies.
         </motion.p>
 
         {/* CTAs */}
@@ -220,8 +220,15 @@ const Hero = () => {
           <Button variant="primary" size="lg" iconRight={<ArrowRight size={14} strokeWidth={2} />} href="#contact">
             Start Your Project
           </Button>
-          <Button variant="ghost" size="lg" href="#projects">
-            View Demo Projects
+          <Button
+            variant="ghost"
+            size="lg"
+            href="https://wa.me/917305160896"
+            target="_blank"
+            rel="noopener noreferrer"
+            icon={<MessageCircle size={14} strokeWidth={2} />}
+          >
+            Chat on WhatsApp
           </Button>
         </motion.div>
 

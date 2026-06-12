@@ -8,6 +8,8 @@ interface ButtonProps {
   className?: string;
   icon?: ReactNode;
   iconRight?: ReactNode;
+  target?: string;
+  rel?: string;
 }
 
 const Button = ({
@@ -18,6 +20,8 @@ const Button = ({
   className = '',
   icon,
   iconRight,
+  target,
+  rel,
 }: ButtonProps) => {
   const sizes = {
     sm: 'px-3.5 py-1.5 text-xs',
@@ -37,6 +41,8 @@ const Button = ({
   return (
     <a
       href={href}
+      target={target}
+      rel={rel}
       className={`inline-flex items-center justify-center gap-2 rounded-full transition-all duration-200 ${sizes[size]} ${variants[variant]} ${className}`}
     >
       {icon}
