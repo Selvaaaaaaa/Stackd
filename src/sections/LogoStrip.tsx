@@ -12,12 +12,14 @@ const TECHNOLOGIES = [
 
 const LogoStrip = () => {
   const items = [...TECHNOLOGIES, ...TECHNOLOGIES]; // duplicate for seamless marquee
+  const reverseItems = [...TECHNOLOGIES].reverse();
+  const reverseMarqueeItems = [...reverseItems, ...reverseItems];
 
   return (
     <section className="border-y border-white/[0.06] py-12 sm:py-16 overflow-hidden">
       <div className="text-center mb-8 sm:mb-10">
         <span className="font-mono text-[11px] uppercase tracking-widest text-white/35">
-          Built with the technologies you trust
+          Trusted technologies behind every Stackd build
         </span>
       </div>
 
@@ -28,6 +30,17 @@ const LogoStrip = () => {
 
         <div className="flex animate-marquee whitespace-nowrap">
           {items.map((company, i) => (
+            <span
+              key={i}
+              className={`mx-10 sm:mx-14 text-white/40 hover:text-white/70 transition-colors text-xl sm:text-2xl ${company.style}`}
+            >
+              {company.name}
+            </span>
+          ))}
+        </div>
+
+        <div className="flex animate-marquee whitespace-nowrap" style={{ animationDirection: 'reverse' }}>
+          {reverseMarqueeItems.map((company, i) => (
             <span
               key={i}
               className={`mx-10 sm:mx-14 text-white/40 hover:text-white/70 transition-colors text-xl sm:text-2xl ${company.style}`}

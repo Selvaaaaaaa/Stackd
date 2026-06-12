@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Bottom row */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-8 border-t border-white/[0.06]">
           <p className="font-mono text-[11px] text-white/35">
-            © 2026 Stackd. All rights reserved. · Built by our team.
+            © {new Date().getFullYear()} Stackd. All rights reserved. · Designed & developed by the Stackd team.
           </p>
           <p className="font-mono text-[11px] text-white/35">
             Designed & built with{' '}

@@ -3,10 +3,10 @@ import { ArrowRight, Code2, Palette, Gauge, Globe, MessageCircle } from 'lucide-
 import Button from '../components/Button';
 
 const HIGHLIGHTS = [
-  { label: 'Team-Led', value: 'Our Team' },
-  { label: 'Mobile-First', value: 'Responsive' },
-  { label: 'SEO-Ready', value: 'Built-in' },
-  { label: 'Startup Focused', value: 'Conversion' },
+  { label: 'Avg. Turnaround', value: '7 Days' },
+  { label: 'Mobile-First', value: '100%' },
+  { label: 'SEO Optimized', value: 'Every Build' },
+  { label: 'Support', value: 'Post-Launch' },
 ];
 
 const TECH_STACK = [

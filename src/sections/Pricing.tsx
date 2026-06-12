@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
 import Eyebrow from '../components/Eyebrow';
 
 interface Project {
@@ -84,7 +83,7 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
           <h3 className="font-semibold text-lg tracking-tight text-white">
             {project.name}
           </h3>
-          <ExternalLink size={14} strokeWidth={1.5} className="text-white/30 group-hover:text-violet-soft transition-colors" />
+          <span className="opacity-0 group-hover:opacity-100 transition-opacity text-white/30 group-hover:text-violet-soft">→</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="font-mono text-[11px] uppercase tracking-widest text-violet-soft/80">
@@ -130,12 +129,12 @@ const Pricing = () => {
             className="text-fade font-semibold tracking-tighter leading-[1.05]"
             style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
           >
-            Portfolio highlights.
+            Work we're proud of.
             <br />
-            Built for Stackd.
+            Built to convert.
           </h2>
           <p className="mt-5 text-white/55 leading-relaxed text-[15px] sm:text-base max-w-lg">
-            These concept builds show the type of work Stackd creates for modern brands: fast, polished, and focused on conversion.
+            Concept builds and live projects that show how Stackd approaches design, performance, and conversion for modern brands.
           </p>
         </div>
 

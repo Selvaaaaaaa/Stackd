@@ -32,10 +32,10 @@ const App = () => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-        className="fixed bottom-4 right-4 z-50 sm:hidden inline-flex items-center gap-2 rounded-full border-hairline-bright bg-black/80 px-4 py-3 text-sm font-medium text-white shadow-2xl shadow-emerald-400/20 backdrop-blur-xl transition-transform duration-200 hover:scale-[1.02]"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 inline-flex items-center justify-center gap-2 rounded-full border-hairline-bright bg-black/80 px-4 py-3 sm:px-5 sm:py-3.5 text-sm font-medium text-white shadow-2xl shadow-emerald-400/20 backdrop-blur-xl transition-transform duration-200 hover:scale-[1.02]"
       >
         <MessageCircle size={16} className="text-emerald-400" strokeWidth={2} />
-        Chat on WhatsApp
+        <span className="hidden sm:inline-flex">Chat on WhatsApp</span>
       </a>
     </>
   );

@@ -143,7 +143,7 @@ const FinalCTA = () => {
                 {submitStatus === 'success' 
                   ? <span className="text-emerald-400">Thanks for reaching out! We'll get back to you shortly.</span>
                   : submitStatus === 'error'
-                  ? <span className="text-red-400">Email sent failed. Resend testing mode can only deliver to the account owner inbox until a domain is verified.</span>
+                  ? <span className="text-red-400">Something went wrong. Please reach out via WhatsApp or email directly.</span>
                   : "Prefer a quick reply? Use WhatsApp for instant chat or send the form and we'll follow up by email."
                 }
               </p>
