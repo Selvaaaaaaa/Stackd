@@ -61,9 +61,9 @@ const Footer = () => {
               <span className="font-semibold tracking-tight">Stackd</span>
             </div>
             <p className="text-[13.5px] text-white/45 leading-relaxed max-w-xs">
-              A passionate student web development team led by Selvaa. We build
-              modern, responsive websites for startups, local businesses,
-              personal brands, creators, and small companies.
+              A passionate student web development team building modern,
+              responsive websites for startups, local businesses, personal
+              brands, creators, and small companies.
             </p>
 
             {/* Status pill */}
@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Bottom row */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-8 border-t border-white/[0.06]">
           <p className="font-mono text-[11px] text-white/35">
-            © 2026 Stackd. All rights reserved. · Founded by Selvaa.
+            © 2026 Stackd. All rights reserved. · Built by our team.
           </p>
           <p className="font-mono text-[11px] text-white/35">
             Designed & built with{' '}

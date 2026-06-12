@@ -3,7 +3,7 @@ import { ArrowRight, Code2, Palette, Gauge, Globe, MessageCircle } from 'lucide-
 import Button from '../components/Button';
 
 const HIGHLIGHTS = [
-  { label: 'Founder-Led', value: 'Selvaa' },
+  { label: 'Team-Led', value: 'Our Team' },
   { label: 'Mobile-First', value: 'Responsive' },
   { label: 'SEO-Ready', value: 'Built-in' },
   { label: 'Startup Focused', value: 'Conversion' },
@@ -205,9 +205,9 @@ const Hero = () => {
           className="mx-auto max-w-xl text-center text-white/55 leading-relaxed mb-10"
           style={{ fontSize: 'clamp(1rem, 1.4vw, 1.15rem)' }}
         >
-          Stackd is a passionate student web development team led by Selvaa,
-          building fast, responsive, SEO-friendly websites for startups, local
-          businesses, personal brands, creators, and small companies.
+          Stackd is a passionate student web development team building fast,
+          responsive, SEO-friendly websites for startups, local businesses,
+          personal brands, creators, and small companies.
         </motion.p>
 
         {/* CTAs */}

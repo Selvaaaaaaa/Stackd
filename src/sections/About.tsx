@@ -5,8 +5,8 @@ import Eyebrow from '../components/Eyebrow';
 const STRENGTHS = [
   {
     icon: Sparkles,
-    title: 'Founder-Led',
-    desc: 'You work directly with Selvaa, keeping communication clear and the process simple from kickoff to launch.',
+    title: 'Team-Led',
+    desc: 'You work directly with our team, keeping communication clear and the process simple from kickoff to launch.',
   },
   {
     icon: Zap,
@@ -48,8 +48,7 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-[15px] sm:text-base text-white/55 leading-relaxed max-w-lg">
               <p>
-                <span className="text-white font-medium">Stackd</span> is a freelance web development team founded by{' '}
-                <span className="text-violet-soft font-medium">Selvaa</span>, a full stack web developer who loves building clean, premium digital experiences.
+                <span className="text-white font-medium">Stackd</span> is a freelance web development team built by our team, focused on clean, premium digital experiences.
               </p>
               <p>
                 We work with modern technologies like React, Next.js, TypeScript, Tailwind CSS, and Framer Motion to create polished websites that feel fast and modern.

@@ -5,8 +5,8 @@ import Eyebrow from '../components/Eyebrow';
 const TRUST_CARDS = [
   {
     icon: Rocket,
-    title: 'Founder-Led Communication',
-    desc: 'You speak directly with Selvaa, keeping feedback, revisions, and timelines simple from the first message.',
+    title: 'Team-Led Communication',
+    desc: 'You speak directly with our team, keeping feedback, revisions, and timelines simple from the first message.',
     highlight: true,
   },
   {
