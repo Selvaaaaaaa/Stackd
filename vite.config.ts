@@ -6,7 +6,7 @@ const resendEndpointPlugin = (mode: string): Plugin => {
   const env = loadEnv(mode, process.cwd(), '');
   const resendApiKey = env.RESEND_API_KEY;
   const resendFromEmail = env.RESEND_FROM_EMAIL ?? 'onboarding@resend.dev';
-  const resendToEmail = env.RESEND_TO_EMAIL ?? 'stackdbuild@gmail.com';
+  const resendToEmail = env.RESEND_TO_EMAIL ?? '';
 
   const register = (server: import('vite').ViteDevServer | import('vite').PreviewServer) => {
     server.middlewares.use('/api/send', async (req, res, next) => {
@@ -21,6 +21,13 @@ const resendEndpointPlugin = (mode: string): Plugin => {
         res.end(JSON.stringify({ message: 'Missing RESEND_API_KEY' }));
         return;
       }
+
+        if (!resendToEmail) {
+          res.statusCode = 500;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ message: 'Missing RESEND_TO_EMAIL' }));
+          return;
+        }
 
       const chunks: Buffer[] = [];
       for await (const chunk of req) {

@@ -15,7 +15,7 @@ const COLUMNS = [
       { label: 'About', href: '#about' },
       { label: 'Projects', href: '#projects' },
       { label: 'Process', href: '#process' },
-      { label: 'Why Us', href: '#testimonials' },
+      { label: 'Why Stackd', href: '#why-stackd' },
       { label: 'Contact', href: '#contact' },
     ],
   },

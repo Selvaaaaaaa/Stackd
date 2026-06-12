@@ -18,7 +18,6 @@ const SERVICES = [
     icon: Globe,
     title: 'Website Development',
     desc: 'Custom-built websites from the ground up — fast, responsive, and designed to convert visitors into customers.',
-    accent: true, // larger card
   },
   {
     icon: Layout,
@@ -81,9 +80,7 @@ const ServiceCard = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.6, delay: index * 0.05, ease: [0.22, 1, 0.36, 1] }}
-      className={`group relative rounded-2xl border-hairline bg-white/[0.015] p-7 sm:p-8 hover:border-white/[0.15] hover:bg-white/[0.025] transition-all duration-300 ${
-        service.accent ? 'md:col-span-2' : ''
-      }`}
+      className="group relative rounded-2xl border-hairline bg-white/[0.015] p-7 sm:p-8 hover:border-white/[0.15] hover:bg-white/[0.025] transition-all duration-300"
     >
       {/* Top icon row */}
       <div className="flex items-center gap-3 mb-6">
@@ -120,7 +117,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5">
           {SERVICES.map((service, i) => (
             <ServiceCard key={service.title} service={service} index={i} />
           ))}

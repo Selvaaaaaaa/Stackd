@@ -2,11 +2,15 @@ import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const RESEND_FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? 'onboarding@resend.dev';
-const RESEND_TO_EMAIL = process.env.RESEND_TO_EMAIL ?? 'selvamariyappan2@gmail.com';
+const RESEND_TO_EMAIL = process.env.RESEND_TO_EMAIL ?? '';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
+  }
+
+  if (!RESEND_TO_EMAIL) {
+    return res.status(500).json({ message: 'Missing RESEND_TO_EMAIL env var' });
   }
 
   try {

@@ -17,8 +17,8 @@ export default {
           400: '#2A2A30',
         },
         violet: {
-          glow: '#8B5CF6',
-          soft: '#C4B5FD',
+          glow: 'rgb(139 92 246)',
+          soft: 'rgb(196 181 253)',
         },
       },
       letterSpacing: {

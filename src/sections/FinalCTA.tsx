@@ -3,12 +3,11 @@ import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { ArrowRight, MessageCircle, Mail, Send, CheckCircle } from 'lucide-react';
 import Button from '../components/Button';
+import { WHATSAPP_URL } from '../App';
 
 const CONTACT_EMAIL = 'stackdbuild@gmail.com';
-const WHATSAPP_URL = 'https://wa.me/917305160896';
-
 const buildEmailHref = (subject: string, body: string) => {
-  return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 };
 
 const FinalCTA = () => {
@@ -41,6 +40,7 @@ const FinalCTA = () => {
       if (response.ok) {
         setSubmitStatus('success');
         form.reset();
+        setTimeout(() => setSubmitStatus('idle'), 6000);
       } else {
         const responseBody = await response.json().catch(() => null);
         console.error('Email send failed:', responseBody);

@@ -179,7 +179,7 @@ const Hero = () => {
             className="group inline-flex items-center gap-2 rounded-full border-hairline bg-white/[0.04] px-3.5 py-1.5 font-mono text-[11px] uppercase tracking-widest text-white/60 hover:text-white hover:bg-white/[0.08] transition-colors"
           >
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-violet-glow animate-pulse-dot" />
-            Stackd · Student web development team
+            Stackd · Premium web development team
             <ArrowRight size={12} strokeWidth={2} className="group-hover:translate-x-0.5 transition-transform" />
           </a>
         </motion.div>

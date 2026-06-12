@@ -39,7 +39,7 @@ const TRUST_CARDS = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="relative py-24 sm:py-32 border-t border-white/[0.06]">
+    <section id="why-stackd" className="relative py-24 sm:py-32 border-t border-white/[0.06]">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="flex flex-col items-start sm:items-center text-left sm:text-center max-w-2xl mx-auto mb-16 sm:mb-20">
           <Eyebrow className="mb-5">WHY STACKD</Eyebrow>
