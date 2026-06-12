@@ -34,7 +34,7 @@ const COLUMNS = [
     links: [
       {
         label: 'stackdbuild@gmail.com',
-        href: 'https://mail.google.com/mail/?view=cm&fs=1&to=stackdbuild%40gmail.com&su=Project%20enquiry%20from%20Stackd%20website&body=Hi%20Stackd%2C%20I%20would%20like%20to%20discuss%20a%20project.',
+        href: 'mailto:stackdbuild@gmail.com?subject=Project%20enquiry%20from%20Stackd%20website&body=Hi%20Stackd%2C%20I%20would%20like%20to%20discuss%20a%20project.',
       },
       { label: '+91 7305160896', href: 'https://wa.me/917305160896' },
       { label: 'LinkedIn', href: '#' },

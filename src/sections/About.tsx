@@ -16,7 +16,7 @@ const STRENGTHS = [
   {
     icon: Heart,
     title: 'Passionate & Dedicated',
-    desc: 'As a student team, we bring fresh energy, sharp focus, and a genuine care for the outcome of every build.',
+    desc: 'We bring fresh energy, sharp focus, and a genuine care for the outcome of every build we take on.',
   },
   {
     icon: Users,
